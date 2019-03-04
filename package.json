@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Wrapper for XS to support execution of Test262",
   "main": "bin/run.js",
+  "node": 10,
   "scripts": {
-    "test": "exit 0"
+    "test": "qunit 'test/index.js'"
   },
   "keywords": [
     "xs",
@@ -15,5 +16,8 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "yargs": "^13.2.1"
+  },
+  "devDependencies": {
+    "qunit": "^2.9.2"
   }
 }
