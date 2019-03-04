@@ -6,5 +6,7 @@ node_js:
 dist: trusty
 sudo: false
 install: npm install
-before_script: jsvu --os=linux64 --engines=xs
+before_script:
+  - jsvu --os=linux64 --engines=xs
+  - 'export PATH="${HOME}/.jsvu:${PATH}"'
 script: npm test
