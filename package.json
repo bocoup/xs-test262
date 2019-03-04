@@ -4,6 +4,10 @@
   "description": "Wrapper for XS to support execution of Test262",
   "main": "bin/run.js",
   "node": 10,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bocoup/xs-test262.git"
+  },
   "scripts": {
     "test": "qunit 'test/index.js'"
   },
