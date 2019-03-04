@@ -33,8 +33,8 @@ if (argv.m) {
   files.push(...argv.m);
 }
 
-for (const cond of conditionals) {
-  if (files.some(file => file.includes(cond))) {
+for (const file of files) {
+  if (conditionals.some(cond => file.includes(cond))) {
     fail(file);
   }
 }
