@@ -1,5 +1,7 @@
 # xs-test262
 
+[![Build Status](https://travis-ci.org/bocoup/xs-test262.svg?branch=master)](https://travis-ci.org/bocoup/xs-test262)
+
 Wrapper for XS to support execution of Test262
 
 ## Usage:
