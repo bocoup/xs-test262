@@ -1,0 +1,16 @@
+{
+  "name": "xs-test262",
+  "version": "1.0.0",
+  "description": "Wrapper for XS to support execution of Test262",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "keywords": [
+    "xs",
+    "test262",
+    "ecmascript"
+  ],
+  "author": "Leo Balter",
+  "license": "MIT"
+}
