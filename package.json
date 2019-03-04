@@ -2,7 +2,7 @@
   "name": "xs-test262",
   "version": "1.0.0",
   "description": "Wrapper for XS to support execution of Test262",
-  "main": "index.js",
+  "main": "bin/run.js",
   "scripts": {
     "test": "exit 0"
   },
@@ -12,5 +12,8 @@
     "ecmascript"
   ],
   "author": "Leo Balter",
-  "license": "MIT"
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "yargs": "^13.2.1"
+  }
 }
