@@ -18,9 +18,7 @@
   ],
   "author": "Leo Balter",
   "license": "BSD-3-Clause",
-  "dependencies": {
-    "yargs": "^13.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jsvu": "^1.4.0",
     "qunit": "^2.9.2"
