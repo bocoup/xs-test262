@@ -43,9 +43,10 @@ test('-m files', t => {
   );
 });
 
-test('-p custom path', t => {
+test('custom path from XS_PATH', t => {
+  const args = '-e foo -s bar -m baz';
   t.equal(
-    run('-p ./test/fixtures/mirror.sh -e foo -s bar -m baz'),
+    execSync(`XS_PATH=./test/fixtures/mirror.sh ${r} ${args}`).toString().trim(),
     '-e foo -s bar -m baz',
     'uses custom path'
   );
